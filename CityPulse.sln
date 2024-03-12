@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityPulse.Server", "CityPulse.Server\CityPulse.Server.csproj", "{D9EFCE8B-B6B7-4EDA-92ED-876CFE8BF446}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "citypulse.client", "citypulse.client\citypulse.client.esproj", "{3EE0E9AD-7F75-45FC-B459-2CD9757C3586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9EFCE8B-B6B7-4EDA-92ED-876CFE8BF446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EFCE8B-B6B7-4EDA-92ED-876CFE8BF446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9EFCE8B-B6B7-4EDA-92ED-876CFE8BF446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9EFCE8B-B6B7-4EDA-92ED-876CFE8BF446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE0E9AD-7F75-45FC-B459-2CD9757C3586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE0E9AD-7F75-45FC-B459-2CD9757C3586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE0E9AD-7F75-45FC-B459-2CD9757C3586}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3EE0E9AD-7F75-45FC-B459-2CD9757C3586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE0E9AD-7F75-45FC-B459-2CD9757C3586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE0E9AD-7F75-45FC-B459-2CD9757C3586}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E30EDA8-1CF0-48DB-8826-4AC4098ED361}
+	EndGlobalSection
+EndGlobal
