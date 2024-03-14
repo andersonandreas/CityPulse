@@ -7,6 +7,7 @@
     <SpaRoot>..\citypulse.client</SpaRoot>
     <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
     <SpaProxyServerUrl>https://localhost:4200</SpaProxyServerUrl>
+    <UserSecretsId>96088aea-f234-4c0b-bd4d-cac3cd86c329</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
