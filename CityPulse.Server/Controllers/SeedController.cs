@@ -7,7 +7,7 @@ using System.Security;
 namespace CityPulse.Server.Controllers
 {
 
-	[Route("api/[controller]/[action]")]
+	[Route("api/[controller]")]
 	[ApiController]
 	public class SeedController : ControllerBase
 	{
@@ -20,8 +20,6 @@ namespace CityPulse.Server.Controllers
 			_appDbContext = appDbContext;
 			_env = Env;
 		}
-
-
 
 
 		[HttpGet]
@@ -44,7 +42,6 @@ namespace CityPulse.Server.Controllers
 			var numberOfCitiesAdded = 0;
 
 			var countryByName = _appDbContext.Countries
-				.AsNoTracking()
 				.AsNoTracking()
 				.ToDictionary(c => c.Name, StringComparer.OrdinalIgnoreCase);
 
