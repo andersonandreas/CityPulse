@@ -8,7 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CitiesComponent } from './cities/cities.component';
-import { AngularMaterialModule } from './angular-material/angular-material.module';
+import { AngularMaterialModule } from './angular-material.module';
 
 @NgModule({
   declarations: [

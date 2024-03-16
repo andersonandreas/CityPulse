@@ -1,4 +1,5 @@
-﻿using CityPulse.Server.Data.Models;
+﻿using CityPulse.Server.Data;
+using CityPulse.Server.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +11,7 @@ namespace CityPulse.Server.Controllers
 	{
 		private readonly AppDbContext _context;
 
+
 		public CitiesController(AppDbContext context)
 		{
 			_context = context;
@@ -17,9 +19,18 @@ namespace CityPulse.Server.Controllers
 
 
 		[HttpGet]
-		public async Task<ActionResult<IEnumerable<City>>> GetCities()
+		public async Task<ActionResult<ApiResult<City>>> GetCities()
 		{
-			return await _context.Cities.ToListAsync();
+			int pageIndex = 0;
+			int pageSize = 10;
+
+			return await ApiResult<City>.CreateAsync(
+				_context.Cities.AsNoTracking(),
+				pageIndex,
+				pageSize
+				);
+
+
 		}
 
 
