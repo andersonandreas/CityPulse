@@ -4,6 +4,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTableModule } from '@angular/material/table'
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 
 
@@ -14,7 +15,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     MatIconModule,
     MatToolbarModule,
     MatTableModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatSortModule
 
   ],
 
@@ -23,7 +25,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     MatIconModule,
     MatToolbarModule,
     MatTableModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatSortModule 
   ]
 })
 export class AngularMaterialModule { }
